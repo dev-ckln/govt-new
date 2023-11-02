@@ -1,0 +1,21 @@
+.quarter-circle {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 75px;
+  width: 75px;
+  line-height: 75px;
+  text-align: center;
+  background: yellowgreen;
+  border-top-right-radius: 100%;
+  border: 2px solid;
+  font-size: 1.5rem;
+  /*animation: shrink 6s ease 1;*/
+}
+@keyframes shrink {
+  to {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+  }
+}

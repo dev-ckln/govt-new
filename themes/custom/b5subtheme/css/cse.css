@@ -1,0 +1,49 @@
+
+
+#block-anucsc form.gsc-search-box >table,#block-anucsc form.gsc-search-box >table td{
+
+    margin:0 0  !important;
+    padding: 0 0;
+
+}
+
+#block-anucsc form.gsc-search-box >table,#block-anucsc form.gsc-search-box >table  tbody{
+    margin: 0 0;
+}
+
+#block-anucsc form.gsc-search-box >table,#block-anucsc form.gsc-search-box >table  gsc-input-box{
+    padding: 0 0;
+    margin:0 0;
+}
+#gsc-iw-id1{
+    padding: 0 0;
+    margin:0 0;
+}
+
+div.gsc-control-cse{
+    padding:0 0;
+}
+#block-anucsc table{
+    width:auto;
+    min-width:0;
+
+}
+
+#block-anucsc  thead, #block-anucsc  tbody, #block-anucsc  tfoot, #block-anucsc  tr, #block-anucsc  td,#block-anucsc  th
+{
+    border-style:none;
+}
+
+
+td.gsc-input{
+    padding: 0 0;
+}
+#block-anucsc   table{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+#block-anucsc   input.gsc-input
+{
+font-size:1.5em;
+}

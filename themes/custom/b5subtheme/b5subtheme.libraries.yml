@@ -1,0 +1,15 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/cse.css: {}
+      css/qartercircle.css: {}
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css: { type: external, minified: true }
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js: { type: external, attributes: { async: true } } 
+
+global-styling2:
+  header: true
+  js:
+    https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9965229067562548: { type: external, attributes: { async: true, crossorigin: anonymous } }
+

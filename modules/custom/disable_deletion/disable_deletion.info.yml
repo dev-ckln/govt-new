@@ -1,4 +1,4 @@
-name: "Disable Deletion"
+name: "Disable Deletions"
 description: "Disable delete of any node or translation by non admins"
 type: module
 package: custom

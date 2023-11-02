@@ -1,0 +1,96 @@
+<?php
+
+function b5subtheme_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+    $content_type = $node->bundle();
+    $suggestions[] = 'page__'.$content_type;
+  }
+}
+
+function b5subtheme_preprocess_field(&$variables) {
+
+/*
+ if ($variables['element']['#field_name'] == 'body') {
+    foreach (array_keys($variables['items']) as $index) {
+      $variables['items'][$index]['content']['#item_attributes']['class'][] = 'my-img-class';
+    }
+  }
+*/
+	$element = $variables['element'];
+	if (isset($element['#field_name'])) {
+		if ($element['#field_name'] == 'field_govt') {
+			$node = $variables['element']['#object'];
+			$arr=$node->get('field_govt')->getValue();
+			$tid=$arr[0]['target_id'];
+
+			$current_langcode = $node->language()->getId();
+			$taxonomy_term = \Drupal\taxonomy\Entity\Term::load($tid);
+			if ($taxonomy_term->hasTranslation($curr_langcode)) {
+				// Get term from context.
+				$term = \Drupal::service('entity.repository')->getTranslationFromContext($taxonomy_term, $curr_langcode);
+				$termName = $term->getName();
+				$variables['govname']=$termName;
+			}
+			else
+			{
+				$variables['govname']=$taxonomy_term->getName();
+			}
+			return;
+		}
+	}
+
+
+
+
+
+
+
+
+}
+function b5subtheme_preprocess_html(&$variables) {
+  // Add node ID to the body class.
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if (is_object($node)) {
+    $variables['attributes']['class'][] = 'node-' . $node->id();
+  }
+}
+function b5subtheme_preprocess_node(&$variables) {
+	if ($variables['node']->getType() == 'scheme' && \Drupal::request()->attributes->get('node'))
+	{
+		$node=$variables['node'];
+
+		$languages = $node->getTranslationLanguages();
+
+		$lngarr=array();
+		foreach ($languages as $id => $language) {
+			$lngarr[$language->getId()]=$language->getName();
+		}
+
+		$currlang = \Drupal::languageManager()->getCurrentLanguage()->getId();
+
+		foreach(array_keys($lngarr) as $key){
+		
+			if($key!=$currlang)
+			{
+				$variables['l1']=   $lngarr[$key];
+				if($key=='en'){ 
+					$variables['l1']='English';
+				}
+				else
+				{
+					$variables['l1']=t($lngarr[$key],array(),array('langcode'=>$key));
+
+				}
+
+				$variables['l2'] = $node->toUrl('canonical', ['language' => $languages[$key]])->toString();
+
+			}
+
+		}
+
+	}
+
+}
+
+
