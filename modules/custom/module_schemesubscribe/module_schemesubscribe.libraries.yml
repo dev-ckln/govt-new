@@ -1,0 +1,11 @@
+schemesubscribe:
+  version: 1.x
+  css:
+   theme:
+    css/multistepform-theme.css: {}
+  js:
+    js/loadschemes.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+

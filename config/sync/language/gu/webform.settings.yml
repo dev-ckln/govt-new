@@ -1,0 +1,7 @@
+settings:
+  default_submit_button_label: 'રજૂ કરો'
+  default_delete_button_label: 'કાઢી નાખો'
+  default_preview_next_button_label: પૂર્વદર્શન
+  default_preview_label: પૂર્વદર્શન
+element:
+  default_more_title: વધુ

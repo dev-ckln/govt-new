@@ -1,0 +1,32 @@
+uuid: 55ad1096-4331-4b46-bba5-a97a1455f64b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_also_see
+    - node.type.award
+    - node.type.mini_scheme
+    - node.type.scheme
+id: node.mini_scheme.field_also_see
+field_name: field_also_see
+entity_type: node
+bundle: mini_scheme
+label: 'Also see'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      award: award
+      mini_scheme: mini_scheme
+      scheme: scheme
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: mini_scheme
+field_type: entity_reference

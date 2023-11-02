@@ -1,0 +1,16 @@
+uuid: c35845a9-b803-443d-8b21-62cf9be3a005
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: first
+label: first
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

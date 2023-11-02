@@ -1,0 +1,27 @@
+uuid: acc93ede-9297-4bac-8eeb-7cf0ab765856
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_information_brochure
+    - node.type.scheme
+  module:
+    - file
+id: node.scheme.field_information_brochure
+field_name: field_information_brochure
+entity_type: node
+bundle: scheme
+label: 'Information Brochure'
+description: 'As released by brochure'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt jpg png zip xls xlsx rar 7z pdf gif bin xpi'
+  max_filesize: '8 MB'
+  description_field: true
+field_type: file

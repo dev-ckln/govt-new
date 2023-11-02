@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 189436dd-b70a-427e-a928-d8280700e56d
+name: 'Govt Schemes India'
+mail: rag.raggupta@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /home-slideshow
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

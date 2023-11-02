@@ -1,0 +1,21 @@
+label: 'அண்மைய பதிவு'
+description: 'சமீபத்திய உள்ளடக்கம்.'
+display:
+  default:
+    display_title: இயல்பான
+    display_options:
+      title: 'அண்மைய பதிவு'
+      fields:
+        changed:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: விண்ணப்பி
+          reset_button_label: மீளமை
+          exposed_sorts_label: வரிசையாக
+      empty:
+        area_text_custom:
+          content: 'எந்த உள்ளடக்கங்களும் இல்லை.'
+      use_more_text: மேலும்
+  block_1:
+    display_title: பெட்டி

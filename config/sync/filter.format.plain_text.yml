@@ -1,0 +1,32 @@
+uuid: de8008b4-ba36-422b-bafc-2f6d0b2ea959
+langcode: en
+status: true
+dependencies:
+  module:
+    - obfuscate_email
+_core:
+  default_config_hash: NIKBt6kw_uPhNI0qtR2DnRf7mSOgAQdx7Q94SKMjXbQ
+name: 'Plain text'
+format: plain_text
+weight: 10
+filters:
+  filter_html_escape:
+    id: filter_html_escape
+    provider: filter
+    status: true
+    weight: -10
+    settings: {  }
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  obfuscate_email:
+    id: obfuscate_email
+    provider: obfuscate_email
+    status: true
+    weight: 0
+    settings:
+      click: '0'
+      click_label: 'Click here to show mail address'

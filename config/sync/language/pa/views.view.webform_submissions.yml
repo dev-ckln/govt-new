@@ -1,0 +1,25 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: ਰੀ-ਸੈੱਟ
+      fields:
+        view_webform_submission:
+          text: ਵੇਖੋ
+      arguments:
+        in_draft:
+          exception:
+            title: ਸਭ
+  embed_manage:
+    display_options:
+      fields:
+        view_webform_submission:
+          text: ਵੇਖੋ
+        edit_webform_submission:
+          text: ਸੋਧ
+  embed_review:
+    display_options:
+      fields:
+        view_webform_submission:
+          text: ਵੇਖੋ

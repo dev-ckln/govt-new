@@ -1,0 +1,11 @@
+display:
+  default:
+    display_title: મૂળભૂત
+    display_options:
+      fields:
+        changed:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: 'લાગુ કરો'
+      use_more_text: વધુ

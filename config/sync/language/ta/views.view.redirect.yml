@@ -1,0 +1,32 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: வடிகட்டி
+          reset_button_label: மீளமை
+          exposed_sorts_label: வரிசையாக
+      pager:
+        options:
+          tags:
+            previous: '‹ முந்திய'
+            next: 'அடுத்த ›'
+            first: '« முதல்'
+            last: 'கடைசி »'
+          expose:
+            items_per_page_options_all_label: '- அனைத்தும் -'
+      fields:
+        redirect_source__path:
+          label: அனுப்புநர்
+          separator: ', '
+        created:
+          label: உருவாக்கப்பட்டது
+      filters:
+        redirect_source__path:
+          expose:
+            label: அனுப்புநர்
+        redirect_redirect__uri:
+          expose:
+            label: பெறுநர்
+  page_1:
+    display_title: பக்கம்

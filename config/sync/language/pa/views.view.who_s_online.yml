@@ -1,0 +1,16 @@
+display:
+  default:
+    display_title: ਮੂਲ
+    display_options:
+      title: 'ਕੌਣ ਆਨਲਾਈਨ ਹੈ'
+      exposed_form:
+        options:
+          reset_button_label: ਰੀ-ਸੈੱਟ
+      filters:
+        access:
+          expose:
+            label: 'ਆਖਰੀ ਵਰਤੋਂ'
+  who_s_online_block:
+    display_title: 'ਕੌਣ ਆਨਲਾਈਨ ਹੈ'
+    display_options:
+      block_description: 'ਕੌਣ ਆਨਲਾਈਨ ਹੈ'

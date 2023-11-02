@@ -1,0 +1,18 @@
+uuid: bd4b3ae4-2774-428d-8cee-dd6922fdff6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.award
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.award
+target_entity_type_id: node
+target_bundle: award
+default_langcode: site_default
+language_alterable: false

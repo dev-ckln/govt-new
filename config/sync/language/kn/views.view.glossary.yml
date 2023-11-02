@@ -1,0 +1,19 @@
+label: ಪದಸೂಚಿ
+display:
+  default:
+    display_title: ಡೀಫಾಲ್ಟ್‍
+    display_options:
+      fields:
+        title:
+          label: ಶೀರ್ಷಿಕೆ
+        name:
+          label: ಲೇಖಕ
+      exposed_form:
+        options:
+          submit_button: ಅನ್ವಯಿಸು
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+  page_1:
+    display_title: ಪುಟ
+    display_options:
+      menu:
+        title: ಪದಸೂಚಿ

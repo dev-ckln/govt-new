@@ -1,0 +1,20 @@
+uuid: c38e1372-d385-4965-8722-dc2effec5308
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.award
+  module:
+    - path
+id: node.award.path
+field_name: path
+entity_type: node
+bundle: award
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

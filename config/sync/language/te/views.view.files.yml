@@ -1,0 +1,40 @@
+display:
+  default:
+    display_title: అప్రమేయం
+    display_options:
+      fields:
+        filename:
+          label: పేరు
+        filesize:
+          label: కొలత
+        status:
+          label: స్థితి
+        changed:
+          label: 'మార్చిన తేదీ'
+      pager:
+        options:
+          tags:
+            next: 'తదుపరి ›'
+            previous: '‹ మునుపటి'
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+      exposed_form:
+        options:
+          submit_button: వడపోయి
+      filters:
+        status:
+          expose:
+            label: స్థితి
+  page_2:
+    display_options:
+      pager:
+        options:
+          tags:
+            next: 'తదుపరి ›'
+            previous: '‹ మునుపటి'
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+      arguments:
+        fid:
+          exception:
+            title: అన్నీ

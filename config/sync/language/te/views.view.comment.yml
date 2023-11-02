@@ -1,0 +1,43 @@
+label: వ్యాఖ్యలు
+display:
+  default:
+    display_title: అప్రమేయం
+    display_options:
+      title: వ్యాఖ్యలు
+      fields:
+        comment_bulk_form:
+          action_title: చర్య
+        subject:
+          label: విషయం
+        name:
+          label: రచయిత
+        operations:
+          label: కార్యాలు
+      pager:
+        options:
+          tags:
+            next: 'తదుపరి ›'
+            previous: '‹ గత'
+            first: '« మొదటి'
+            last: 'చివరి »'
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+      exposed_form:
+        options:
+          submit_button: వడపోయి
+      empty:
+        area_text_custom:
+          content: 'వ్యాఖ్యలు లేవు'
+      filters:
+        subject:
+          expose:
+            label: విషయం
+        langcode:
+          expose:
+            label: భాష
+      use_more_text: మరిన్ని
+  page_published:
+    display_title: 'ప్రచురించిన వ్యాఖ్యలు'
+    display_options:
+      menu:
+        title: వ్యాఖ్యలు

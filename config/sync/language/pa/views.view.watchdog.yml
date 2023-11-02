@@ -1,0 +1,23 @@
+display:
+  default:
+    display_title: ਮੂਲ
+    display_options:
+      fields:
+        type:
+          label: ਕਿਸਮ
+        timestamp:
+          label: ਮਿਤੀ
+        message:
+          label: ਸੰਦੇਸ਼
+        name:
+          label: ਯੂਜ਼ਰ
+      exposed_form:
+        options:
+          submit_button: ਫਿਲਟਰ
+          reset_button_label: ਰੀ-ਸੈੱਟ
+      filters:
+        type:
+          expose:
+            label: ਕਿਸਮ
+  page:
+    display_title: ਸਫਾ

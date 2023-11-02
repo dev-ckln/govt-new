@@ -1,0 +1,23 @@
+uuid: c0f70eaa-a5bc-4941-b9ac-19f9e8d55d3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.homeslideshow
+  module:
+    - text
+id: node.homeslideshow.body
+field_name: body
+entity_type: node
+bundle: homeslideshow
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

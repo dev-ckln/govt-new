@@ -1,0 +1,11 @@
+uuid: f4a56f8f-8ac3-46dd-a36c-bbfcf82bad7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mini_scheme
+id: node.mini_scheme
+target_entity_type_id: node
+target_bundle: mini_scheme
+default_langcode: site_default
+language_alterable: false

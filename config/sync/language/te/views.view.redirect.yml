@@ -1,0 +1,29 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: వడపోయి
+      pager:
+        options:
+          tags:
+            previous: '‹ గత'
+            next: 'తదుపరి ›'
+            first: '« మొదటి'
+            last: 'చివరి »'
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+      fields:
+        redirect_source__path:
+          label: నుండి
+        created:
+          label: సృష్టితం
+      filters:
+        redirect_source__path:
+          expose:
+            label: నుండి
+        redirect_redirect__uri:
+          expose:
+            label: ఎవరికి
+  page_1:
+    display_title: పేజీ

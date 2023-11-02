@@ -1,0 +1,9 @@
+label: 'ਤਾਜ਼ਾ ਟਿੱਪਣੀਆਂ'
+display:
+  default:
+    display_title: ਮੂਲ
+    display_options:
+      title: 'ਤਾਜ਼ਾ ਟਿੱਪਣੀਆਂ'
+  block_1:
+    display_options:
+      block_description: 'ਤਾਜ਼ਾ ਟਿੱਪਣੀਆਂ'

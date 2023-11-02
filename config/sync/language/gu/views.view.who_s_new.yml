@@ -1,0 +1,15 @@
+label: 'કોણ નવું છે'
+display:
+  default:
+    display_title: મૂળભૂત
+    display_options:
+      title: 'કોણ નવું છે'
+      exposed_form:
+        options:
+          submit_button: 'લાગુ કરો'
+  block_1:
+    display_title: 'કોણ નવું છે'
+    display_options:
+      display_description: 'નવા વપરાશકર્તાઓની યાદી'
+      block_description: 'કોણ નવું છે'
+      block_category: વપરાશકર્તા

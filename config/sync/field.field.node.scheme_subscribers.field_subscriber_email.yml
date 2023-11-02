@@ -1,0 +1,19 @@
+uuid: a51fe4f7-2192-4eeb-a44a-739b435b1152
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subscriber_email
+    - node.type.scheme_subscribers
+id: node.scheme_subscribers.field_subscriber_email
+field_name: field_subscriber_email
+entity_type: node
+bundle: scheme_subscribers
+label: 'Subscriber Email'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

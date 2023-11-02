@@ -1,0 +1,35 @@
+uuid: b923c408-28df-4ffe-96a6-c27d0879fd50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.govt.field_leader
+    - taxonomy.vocabulary.govt
+  module:
+    - image
+    - text
+id: taxonomy_term.govt.default
+targetEntityType: taxonomy_term
+bundle: govt
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_leader:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

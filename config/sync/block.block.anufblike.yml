@@ -1,0 +1,33 @@
+uuid: 0406362d-ae1a-4d45-a2ec-9e456094fe56
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:eff8f2c1-1afa-475f-a3c9-62ef55b85052'
+  module:
+    - block_content
+    - node
+  theme:
+    - b5subtheme
+id: anufblike
+theme: b5subtheme
+region: footer
+weight: -6
+provider: null
+plugin: 'block_content:eff8f2c1-1afa-475f-a3c9-62ef55b85052'
+settings:
+  id: 'block_content:eff8f2c1-1afa-475f-a3c9-62ef55b85052'
+  label: 'Anu FB Like'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      scheme: scheme

@@ -1,0 +1,23 @@
+uuid: 1bd36835-23a0-4191-a4c3-0c5672e9067a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reach_crores_
+    - node.type.scheme
+id: node.scheme.field_reach_crores_
+field_name: field_reach_crores_
+entity_type: node
+bundle: scheme
+label: Reach(lacs)
+description: 'How many people affected by this scheme  in lacs'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 14000
+  prefix: ''
+  suffix: ' Lacs'
+field_type: integer

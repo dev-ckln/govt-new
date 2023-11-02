@@ -1,0 +1,49 @@
+label: ಪ್ರತಿಕ್ರಿಯೆಗಳು
+display:
+  default:
+    display_title: ಡೀಫಾಲ್ಟ್‍
+    display_options:
+      title: ಪ್ರತಿಕ್ರಿಯೆಗಳು
+      fields:
+        comment_bulk_form:
+          action_title: ಕಾರ್ಯ
+        subject:
+          label: ವಿಷಯ
+          separator: ', '
+        uid:
+          separator: ', '
+        name:
+          label: ಲೇಖಕ
+          separator: ', '
+        entity_id:
+          separator: ', '
+        changed:
+          label: 'ಅಪ್‌ಡೇಟ್‌ ಮಾಡಲಾಗಿದ್ದು'
+          separator: ', '
+        operations:
+          label: ಕ್ರಿಯೆ
+        name_1:
+          separator: ', '
+      pager:
+        options:
+          tags:
+            next: 'ಮುಂದಿನ ›'
+            previous: '‹ ಹಿಂದಿನ'
+            first: '« ಮೊದಲ'
+            last: 'ಕೊನೆಯ »'
+      exposed_form:
+        options:
+          submit_button: ಶೋಧಕ(Filter)
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      filters:
+        subject:
+          expose:
+            label: ವಿಷಯ
+        langcode:
+          expose:
+            label: ಭಾಷೆ
+      use_more_text: ಮತ್ತಷ್ಟು
+  page_published:
+    display_options:
+      menu:
+        title: ಪ್ರತಿಕ್ರಿಯೆಗಳು

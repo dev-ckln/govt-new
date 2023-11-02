@@ -1,0 +1,18 @@
+uuid: 6a2b9e1e-0a9e-4614-828e-f663746f2058
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.economic_background
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.economic_background
+target_entity_type_id: taxonomy_term
+target_bundle: economic_background
+default_langcode: site_default
+language_alterable: true

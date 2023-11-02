@@ -1,0 +1,8 @@
+uuid: 0be49fe3-d17b-4dd0-8618-4f7254ac420d
+langcode: en
+status: true
+dependencies: {  }
+name: 'Economic Background'
+vid: economic_background
+description: ''
+weight: 0

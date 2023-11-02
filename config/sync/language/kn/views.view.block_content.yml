@@ -1,0 +1,19 @@
+display:
+  default:
+    display_title: ಡೀಫಾಲ್ಟ್‍
+    display_options:
+      fields:
+        info:
+          separator: ', '
+        type:
+          separator: ', '
+        changed:
+          label: 'ಅಪ್‌ಡೇಟ್‌ ಮಾಡಲಾಗಿದ್ದು'
+        operations:
+          label: ಕ್ರಿಯೆ
+      exposed_form:
+        options:
+          submit_button: ಅನ್ವಯಿಸು
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+  page_1:
+    display_title: ಪುಟ

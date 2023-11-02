@@ -1,0 +1,15 @@
+label: 'ఎవరు కొత్త'
+display:
+  default:
+    display_title: అప్రమేయం
+    display_options:
+      title: 'ఎవరు కొత్త'
+      exposed_form:
+        options:
+          submit_button: ఆపాదించు
+  block_1:
+    display_title: 'ఎవరు కొత్త'
+    display_options:
+      display_description: 'కొత్త వాడుకరుల జాబితా'
+      block_description: 'ఎవరు కొత్త'
+      block_category: వాడుకరి

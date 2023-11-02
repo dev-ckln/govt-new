@@ -1,0 +1,38 @@
+label: ಕಡತಗಳು
+display:
+  default:
+    display_title: ಡೀಫಾಲ್ಟ್‍
+    display_options:
+      title: ಕಡತಗಳು
+      fields:
+        filename:
+          label: ಹೆಸರು
+          separator: ', '
+        filesize:
+          label: ಗಾತ್ರ
+        status:
+          label: ಸ್ಥಿತಿ
+      exposed_form:
+        options:
+          submit_button: ಶೋಧಕ(Filter)
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      filters:
+        filename:
+          expose:
+            label: ಕಡತದಹೆಸರು
+        status:
+          expose:
+            label: ಸ್ಥಿತಿ
+  page_1:
+    display_options:
+      menu:
+        title: ಕಡತಗಳು
+  page_2:
+    display_options:
+      fields:
+        entity_label:
+          label: ಎಂಟಿಟಿ
+      arguments:
+        fid:
+          exception:
+            title: ಎಲ್ಲಾ

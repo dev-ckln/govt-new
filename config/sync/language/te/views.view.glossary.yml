@@ -1,0 +1,25 @@
+display:
+  default:
+    display_title: అప్రమేయం
+    display_options:
+      fields:
+        title:
+          label: శీర్షిక
+        name:
+          label: రచయిత
+        changed:
+          label: 'చివరి తాజాకరణ'
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+      exposed_form:
+        options:
+          submit_button: ఆపాదించు
+  attachment_1:
+    display_title: జోడింపు
+  page_1:
+    display_title: పేజీ

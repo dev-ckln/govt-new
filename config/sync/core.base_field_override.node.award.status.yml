@@ -1,0 +1,22 @@
+uuid: fd82b594-8711-404d-91f9-e2957d354671
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.award
+id: node.award.status
+field_name: status
+entity_type: node
+bundle: award
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

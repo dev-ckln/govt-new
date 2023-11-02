@@ -1,0 +1,22 @@
+uuid: 64e0080a-261a-4191-a2f9-12922197cd20
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.homeslideshow
+id: node.homeslideshow.toc_js_active
+field_name: toc_js_active
+entity_type: node
+bundle: homeslideshow
+label: 'Toc active'
+description: 'Stores whether the Toc is displayed or not.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

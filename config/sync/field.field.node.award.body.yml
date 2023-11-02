@@ -1,0 +1,23 @@
+uuid: fe97acf6-eada-466d-991e-165b1888f40c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.award
+  module:
+    - text
+id: node.award.body
+field_name: body
+entity_type: node
+bundle: award
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

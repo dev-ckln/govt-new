@@ -1,0 +1,29 @@
+uuid: 8d59435d-4017-4adf-b8b8-073725afee58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_scheme_type
+    - node.type.scheme
+    - taxonomy.vocabulary.scheme_type
+id: node.scheme.field_scheme_type
+field_name: field_scheme_type
+entity_type: node
+bundle: scheme
+label: 'Scheme Type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      scheme_type: scheme_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

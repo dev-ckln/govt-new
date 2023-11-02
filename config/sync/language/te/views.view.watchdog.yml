@@ -1,0 +1,38 @@
+display:
+  default:
+    display_title: అప్రమేయం
+    display_options:
+      fields:
+        nothing:
+          admin_label: ప్రతీకం
+        severity:
+          label: తీవ్రత
+        type:
+          label: రకం
+        timestamp:
+          label: తేదీ
+        message:
+          label: సందేశం
+        name:
+          label: వాడుకరి
+        link:
+          label: కార్యాలు
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+      exposed_form:
+        options:
+          submit_button: వడపోయి
+      filters:
+        type:
+          expose:
+            label: రకం
+        severity:
+          expose:
+            label: తీవ్రత
+  page:
+    display_title: పేజీ

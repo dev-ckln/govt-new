@@ -1,0 +1,8 @@
+display:
+  default:
+    display_title: అప్రమేయం
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ఆపాదించు
+      use_more_text: మరిన్ని

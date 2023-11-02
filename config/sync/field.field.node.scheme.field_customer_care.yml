@@ -1,0 +1,21 @@
+uuid: 6dde7ece-b6ac-4f50-8365-773ae3f19f0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_customer_care
+    - node.type.scheme
+  module:
+    - text
+id: node.scheme.field_customer_care
+field_name: field_customer_care
+entity_type: node
+bundle: scheme
+label: 'Customer Care'
+description: 'Scheme Customer Care Details'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

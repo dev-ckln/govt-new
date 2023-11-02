@@ -1,0 +1,49 @@
+label: ಜನರು
+display:
+  default:
+    display_title: ಡೀಫಾಲ್ಟ್‍
+    display_options:
+      title: ಜನರು
+      fields:
+        name:
+          label: 'ಬಳಕೆದಾರ ಹೆಸರು'
+        status:
+          label: ಸ್ಥಿತಿ
+          settings:
+            format_custom_false: ನಿರ್ಬಂಧಿಸಲಾದ
+            format_custom_true: ಸಕ್ರಿಯ
+        roles_target_id:
+          label: ಪಾತ್ರಗಳು
+        created:
+          label: ಸದಸ್ಯರು
+        operations:
+          label: ಕ್ರಿಯೆ
+        mail:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: ಶೋಧಕ(Filter)
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      filters:
+        status:
+          group_info:
+            label: ಸ್ಥಿತಿ
+            group_items:
+              1:
+                title: ಸಕ್ರಿಯ
+              2:
+                title: ನಿರ್ಬಂಧಿಸಲಾದ
+        roles_target_id:
+          expose:
+            label: ಪಾತ್ರ
+        permission:
+          expose:
+            label: ಅನುಮತಿ
+      use_more_text: ಮತ್ತಷ್ಟು
+  page_1:
+    display_title: ಪುಟ
+    display_options:
+      menu:
+        title: ಪಟ್ಟಿ
+      tab_options:
+        title: ಜನರು

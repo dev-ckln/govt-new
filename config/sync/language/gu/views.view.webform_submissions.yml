@@ -1,0 +1,92 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: 'લાગુ કરો'
+      fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        created:
+          separator: ', '
+        remote_addr:
+          label: 'IP સરનામું'
+          separator: ', '
+        view_webform_submission:
+          label: ક્રિયાઓ
+          text: જુઓ
+      arguments:
+        in_draft:
+          exception:
+            title: બધા
+  embed_administer:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: ક્રિયા
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
+        created:
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          label: 'IP સરનામું'
+          separator: ', '
+        operations:
+          label: ક્રિયાઓ
+  embed_manage:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: ક્રિયા
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
+        created:
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          label: 'IP સરનામું'
+          separator: ', '
+        view_webform_submission:
+          label: ક્રિયાઓ
+          text: જુઓ
+        edit_webform_submission:
+          label: ક્રિયાઓ
+          text: 'સંપાદિત કરો'
+  embed_review:
+    display_options:
+      fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
+        created:
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          label: 'IP સરનામું'
+          separator: ', '
+        view_webform_submission:
+          label: ક્રિયાઓ
+          text: જુઓ

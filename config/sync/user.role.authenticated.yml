@@ -1,0 +1,36 @@
+uuid: ee87effe-c7f8-495c-9b9f-83a5c4b054ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.scheme_subscribers
+  module:
+    - comment
+    - contact
+    - google_analytics
+    - linkchecker
+    - node
+    - search
+    - shortcut
+    - system
+    - toc_js
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access broken links report'
+  - 'access comments'
+  - 'access content'
+  - 'access own broken links report'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'administer toc_js'
+  - 'edit own comments'
+  - 'opt-in or out of google analytics tracking'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'view scheme_subscribers revisions'

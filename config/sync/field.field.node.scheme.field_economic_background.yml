@@ -1,0 +1,29 @@
+uuid: 114c159d-88f0-44dc-8382-7603ec8cfae6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_economic_background
+    - node.type.scheme
+    - taxonomy.vocabulary.economic_background
+id: node.scheme.field_economic_background
+field_name: field_economic_background
+entity_type: node
+bundle: scheme
+label: 'Economic Background'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      economic_background: economic_background
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

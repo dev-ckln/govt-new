@@ -1,0 +1,28 @@
+uuid: bd4c2404-05a2-4003-bbed-2d8043bab196
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_example
+    - node
+  theme:
+    - b5subtheme
+id: matchingschemes
+theme: b5subtheme
+region: footer
+weight: -8
+provider: null
+plugin: matching_schemes_sector
+settings:
+  id: matching_schemes_sector
+  label: 'Matching Schemes'
+  label_display: '0'
+  provider: block_example
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      scheme: scheme

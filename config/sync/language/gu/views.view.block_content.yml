@@ -1,0 +1,18 @@
+display:
+  default:
+    display_title: મૂળભૂત
+    display_options:
+      fields:
+        info:
+          separator: ', '
+        type:
+          separator: ', '
+        changed:
+          label: 'અધતન થયું'
+        operations:
+          label: ક્રિયાઓ
+      exposed_form:
+        options:
+          submit_button: 'લાગુ કરો'
+  page_1:
+    display_title: પ્રુષ્ઠ

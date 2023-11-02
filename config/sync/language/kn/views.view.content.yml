@@ -1,0 +1,50 @@
+label: ಒಳಅಂಶ
+display:
+  default:
+    display_title: ಡೀಫಾಲ್ಟ್‍
+    display_options:
+      title: ಒಳಅಂಶ
+      fields:
+        title:
+          label: ಶೀರ್ಷಿಕೆ
+        type:
+          label: 'ವಿಷಯದ ಬಗೆ'
+          separator: ', '
+        name:
+          label: ಲೇಖಕ
+        status:
+          label: ಸ್ಥಿತಿ
+          settings:
+            format_custom_true: ಪ್ರಕಟಿತ
+        changed:
+          label: 'ಅಪ್‌ಡೇಟ್‌ ಮಾಡಲಾಗಿದ್ದು'
+        operations:
+          label: ಕ್ರಿಯೆ
+      exposed_form:
+        options:
+          submit_button: ಶೋಧಕ(Filter)
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      filters:
+        title:
+          expose:
+            label: ಶೀರ್ಷಿಕೆ
+        type:
+          expose:
+            label: 'ವಿಷಯದ ಬಗೆ'
+        status:
+          expose:
+            label: ಸ್ಥಿತಿ
+          group_info:
+            group_items:
+              1:
+                title: ಪ್ರಕಟಿತ
+        langcode:
+          expose:
+            label: ಭಾಷೆ
+  page_1:
+    display_title: ಪುಟ
+    display_options:
+      menu:
+        title: ಒಳಅಂಶ
+      tab_options:
+        title: ಒಳಅಂಶ

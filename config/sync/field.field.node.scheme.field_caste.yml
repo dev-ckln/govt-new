@@ -1,0 +1,29 @@
+uuid: 2f665305-7acf-4de7-898c-497ae7a52c87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_caste
+    - node.type.scheme
+    - taxonomy.vocabulary.caste
+id: node.scheme.field_caste
+field_name: field_caste
+entity_type: node
+bundle: scheme
+label: Caste
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      caste: caste
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

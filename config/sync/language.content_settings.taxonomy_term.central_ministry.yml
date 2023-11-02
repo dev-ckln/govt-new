@@ -1,0 +1,18 @@
+uuid: 5bec1891-575e-4add-8e05-94bc56c0896e
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.central_ministry
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.central_ministry
+target_entity_type_id: taxonomy_term
+target_bundle: central_ministry
+default_langcode: site_default
+language_alterable: true

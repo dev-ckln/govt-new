@@ -1,0 +1,23 @@
+uuid: e7f83a0a-324c-48ee-9a02-a041245485c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.mini_scheme
+  module:
+    - text
+id: node.mini_scheme.body
+field_name: body
+entity_type: node
+bundle: mini_scheme
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,40 @@
+label: ਸਮੱਗਰੀ
+display:
+  default:
+    display_title: ਮੂਲ
+    display_options:
+      title: ਸਮੱਗਰੀ
+      fields:
+        title:
+          label: ਟਾਈਟਲ
+        name:
+          label: ਲੇਖਕ
+        status:
+          label: ਹਾਲਤ
+          settings:
+            format_custom_true: 'ਪਬਲਿਸ਼ ਕੀਤਾ'
+      exposed_form:
+        options:
+          submit_button: ਫਿਲਟਰ
+          reset_button_label: ਰੀ-ਸੈੱਟ
+      filters:
+        title:
+          expose:
+            label: ਟਾਈਟਲ
+        status:
+          expose:
+            label: ਹਾਲਤ
+          group_info:
+            group_items:
+              1:
+                title: 'ਪਬਲਿਸ਼ ਕੀਤਾ'
+        langcode:
+          expose:
+            label: ਭਾਸ਼ਾ
+  page_1:
+    display_title: ਸਫਾ
+    display_options:
+      menu:
+        title: ਸਮੱਗਰੀ
+      tab_options:
+        title: ਸਮੱਗਰੀ

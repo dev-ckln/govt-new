@@ -1,0 +1,14 @@
+display:
+  default:
+    display_title: ਮੂਲ
+    display_options:
+      fields:
+        title:
+          label: ਟਾਈਟਲ
+        name:
+          label: ਲੇਖਕ
+      exposed_form:
+        options:
+          reset_button_label: ਰੀ-ਸੈੱਟ
+  page_1:
+    display_title: ਸਫਾ

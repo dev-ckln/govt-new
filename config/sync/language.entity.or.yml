@@ -1,0 +1,9 @@
+uuid: 0e84bac3-1ed6-449d-ae70-d19ef7ceb222
+langcode: en
+status: true
+dependencies: {  }
+id: or
+label: Oriya
+direction: ltr
+weight: 10
+locked: false

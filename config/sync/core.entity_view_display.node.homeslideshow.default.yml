@@ -1,0 +1,43 @@
+uuid: 95284f10-9b0a-45d0-9690-353a7e83acc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.homeslideshow.body
+    - field.field.node.homeslideshow.field_image
+    - node.type.homeslideshow
+  module:
+    - image
+    - text
+    - user
+id: node.homeslideshow.default
+targetEntityType: node
+bundle: homeslideshow
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

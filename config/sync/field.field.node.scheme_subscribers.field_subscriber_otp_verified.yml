@@ -1,0 +1,23 @@
+uuid: e0e8b376-aa7e-4f72-97c7-922df1c59a96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subscriber_otp_verified
+    - node.type.scheme_subscribers
+id: node.scheme_subscribers.field_subscriber_otp_verified
+field_name: field_subscriber_otp_verified
+entity_type: node
+bundle: scheme_subscribers
+label: 'Subscriber OTP Verified'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

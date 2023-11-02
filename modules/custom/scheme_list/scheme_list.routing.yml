@@ -1,0 +1,7 @@
+scheme_list.view_schemes:
+  path: '/allschemes/{state}'
+  defaults:
+    _controller: 'Drupal\scheme_list\Controller\StateWiseSchemeList::viewScheme'
+    _title_callback: 'Drupal\scheme_list\Controller\StateWiseSchemeList::getTitle'
+  requirements:
+    _permission: 'access content'

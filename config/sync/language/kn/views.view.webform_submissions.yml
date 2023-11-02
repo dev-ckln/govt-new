@@ -1,0 +1,105 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ಅನ್ವಯಿಸು
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        created:
+          label: ನಿರ್ಮಿಸಲಾಗಿದೆ
+          separator: ', '
+        remote_addr:
+          separator: ', '
+        view_webform_submission:
+          label: ಕ್ರಿಯೆ
+      arguments:
+        in_draft:
+          exception:
+            title: ಎಲ್ಲಾ
+  embed_administer:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: ಕಾರ್ಯ
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          label: 'ಲಾಕ್‌ ಮಾಡಲಾದ'
+          separator: ', '
+        created:
+          label: ನಿರ್ಮಿಸಲಾಗಿದೆ
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
+        operations:
+          label: ಕ್ರಿಯೆ
+      filters:
+        locked:
+          expose:
+            label: 'ಲಾಕ್‌ ಮಾಡಲಾದ'
+  embed_manage:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: ಕಾರ್ಯ
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          label: 'ಲಾಕ್‌ ಮಾಡಲಾದ'
+          separator: ', '
+        created:
+          label: ನಿರ್ಮಿಸಲಾಗಿದೆ
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
+        view_webform_submission:
+          label: ಕ್ರಿಯೆ
+        edit_webform_submission:
+          label: ಕ್ರಿಯೆ
+          text: ಸಂಪಾದಿಸು
+      filters:
+        locked:
+          expose:
+            label: 'ಲಾಕ್‌ ಮಾಡಲಾದ'
+  embed_review:
+    display_options:
+      fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          label: 'ಲಾಕ್‌ ಮಾಡಲಾದ'
+          separator: ', '
+        created:
+          label: ನಿರ್ಮಿಸಲಾಗಿದೆ
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          separator: ', '
+        view_webform_submission:
+          label: ಕ್ರಿಯೆ
+      filters:
+        locked:
+          expose:
+            label: 'ಲಾಕ್‌ ಮಾಡಲಾದ'

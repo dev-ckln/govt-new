@@ -1,0 +1,36 @@
+<?php
+
+function moderate_comments_form_alter(&$form,\Drupal\Core\Form\FormStateInterface $form_state,$form_id){
+
+	if($form_id=='comment_comment_form'){
+		$form['#validate'][] = '_stop_comment_spam_validate';
+	}
+}
+
+function _stop_comment_spam_validate(&$form, &$form_state){
+
+  $subject = strtolower($form_state->getValue('subject')[0]['value']);
+  $comments = strtolower($form_state->getValue('comment_body')[0]['value']);
+
+
+  if( preg_match("{https?://}i",$comments)){
+	  $form_state->setErrorByName('Comment', t('Comment :'. "Links not allowed"));
+	  return;
+  }
+
+  if( preg_match('/[А-Яа-яЁё]/u',$comments)){
+	  $form_state->setErrorByName('Comment', t('Comment :'. "Russian not allowed"));
+	  return;
+  }
+
+ $banned = '/\b(cialis|viagra|ahole|horny|anus|ash0le|ash0les|asholes|ass|AssMonkey|Assface|assh0le|assh0lez|asshole|assholes|assholz|asswipe|azzhole|bassterds|bastard|bastards|bastardz|basterds|basterdz|Biatch|bitch|bitches|BlowJob|boffing|butthole|buttwipe|c0ck|c0cks|c0k|CarpetMuncher|cawk|cawks|Clit|cnts|cntz|cock|cockhead|cock-head|cocks|CockSucker|cock-sucker|crap|cum|cunt|cunts|cuntz|dick|dild0|dild0s|dildo|dildos|dilld0|dilld0s|dominatricks|dominatrics|dominatrix|dyke|enema|fuck|fucker|fag|fag1t|faget|fagg1t|faggit|faggot|fagit|fags|fagz|faig|faigs|fart|flippingthebird|fuck|fucker|fuckin|fucking|fucks|FudgePacker|fuk|Fukah|Fuken|fuker|Fukin|Fukk|Fukkah|Fukken|Fukker|Fukkin|g00k|gay|gayboy|gaygirl|gays|gayz|God-damned|h00r|h0ar|h0re|hells|hoar|hoor|hoore|jackoff|jap|japs|jerk-off|jisim|jiss|jizm|jizz|knob|knobs|knobz|kunt|kunts|kuntz|Lesbian|Lezzian|Lipshits|Lipshitz|masochist|masokist|massterbait|masstrbait|masstrbate|masterbaiter|masterbate|masterbates|MothaFucker|MothaFuker|MothaFukkah|MothaFukker|MotherFucker|MotherFukah|MotherFuker|MotherFukkah|MotherFukker|mother-fucker|MuthaFucker|MuthaFukah|MuthaFuker|MuthaFukkah|MuthaFukker|n1gr|nastt|nigger|nigur|niiger|niigr|orafis|orgasim|orgasm|orgasum|oriface|orifice|orifiss|packi|packie|packy|paki|pakie|paky|pecker|peeenus|peeenusss|peenus|peinus|pen1s|penas|penis|penis-breath|penus|penuus|Phuc|Phuck|Phuk|Phuker|Phukker|polac|polack|polak|Poonani|pr1c|pr1ck|pr1k|pusse|pussee|pussy|puuke|puuker|queer|queers|queerz|qweers|qweerz|qweir|recktum|rectum|retard|sadist|scank|schlong|screwing|semen|sex|sexy|sh1t|sh1ter|sh1ts|sh1tter|sh1tz|shit|shits|shitter|Shitty|Shity|shitz|Shyt|Shyte|Shytty|Shyty|skanck|skank|skankee|skankey|skanks|Skanky|slut|orgy|orgies|sluts|Slutty|slutz|son-of-a-bitch|tit|turd|va1jina|vag1na|vagiina|vagina|vaj1na|vajina|vullva|vulva|w0p|wh00r|wh0re|whore|xrated|bitch|blowjob|clit|arschloch|fuck|shit|ass|asshole|b17ch|b1tch|bastard|boiolas|buceta|c0ck|cawk|chink|cipa|clits|cock|cum|cunt|dildo|dirsa|ejakulate|fatass|fcuk|fuk|fux0r|hoer|hore|jism|kawk|l3itch|lesbian|masturbate|masterbat*|masterbat3|motherfucker|mofo|nazi|nigga|nigger|nutsack|phuck|pimpis|pusse|pussy|scrotum|shemale|slut|smut|teets|tits|boobs|b00bs|teez|testical|testicle|titt|w00se|jackoff|wank|whoar|whore|damn|fuck*|shit*|amcik|andskota|arse*|assrammer|ayir|bi7ch|bitch*|bollock*|breasts|butt-pirate|cabron|cazzo|chraa|chuj|Cock*|cunt*|d4mn|daygo|dego|dick*|dike*|dupa|dziwka|ejackulate|Ekrem*|Ekto|enculer|faen|fag*|fanculo|fanny|feces|feg|Felcher|ficken|fitt*|Flikker|foreskin|Fotze|fuk*|futkretzn|gay|gook|guiena|h0r|h4x0r|hell|helvete|hoer*|honkey|Huevon|hui|injun|jizz|kanker*|kike|klootzak|kraut|knulle|kuk|kuksuger|Kurac|kurwa|kyrpa*|lesbo|mamhoon|masturbat*|mibun|monkleigh|mouliewop|muie|mulkku|muschi|nazis|nepesaurio|nigger*|orospu|paska*|perse|picka|pierdol*|pillu*|pimmel|piss*|pizda|poontsee|poop|porn|p0rn|pr0n|preteen|pula|pule|puta|puto|qahbeh|queef*|rautenberg|schaffer|scheiss*|schlampe|schmuck|screw|shitt*|sharmuta|sharmute|shipal|shiz|skribz|skurwysyn|sphencter|spic|spierdalaj|splooge|suka|b00b*|testicle*|titt*|twat|vittu|wank*|wetback*|wichser|wop*|yed|zabourah)\b/i';
+
+
+    if ( preg_match($banned, "$subject $comments")) {
+	$form_state->setErrorByName('Comment', t('Comment :'. "Remove banned words"));
+        return;
+    }
+
+
+}
+

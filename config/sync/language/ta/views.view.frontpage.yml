@@ -1,0 +1,24 @@
+label: 'முன் பக்கம்'
+description: 'அனைத்து உள்ளடக்கங்களும் முன் பக்கத்திற்கு உயர்த்தப்பட்டது'
+display:
+  default:
+    display_title: இயல்பான
+    display_options:
+      pager:
+        options:
+          tags:
+            next: 'அடுத்த ›'
+            previous: '‹ முந்திய'
+            first: '« முதல்'
+            last: 'கடந்த »'
+          expose:
+            items_per_page_options_all_label: '- அனைத்தும் -'
+      exposed_form:
+        options:
+          submit_button: விண்ணப்பி
+          reset_button_label: மீளமை
+          exposed_sorts_label: வரிசையாக
+  feed_1:
+    display_title: புகட்டல்
+  page_1:
+    display_title: பக்கம்

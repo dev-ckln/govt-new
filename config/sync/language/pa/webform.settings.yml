@@ -1,0 +1,7 @@
+settings:
+  default_reset_button_label: ਰੀ-ਸੈੱਟ
+  default_delete_button_label: ਹਟਾਓ
+  default_preview_next_button_label: ਝਲਕ
+  default_preview_label: ਝਲਕ
+element:
+  default_more_title: ਹੋਰ

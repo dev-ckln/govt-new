@@ -1,0 +1,33 @@
+uuid: e1573bee-574b-4658-8a35-b225dbe24cdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_govt
+    - node.type.award
+    - taxonomy.vocabulary.govt
+  content:
+    - 'taxonomy_term:govt:c2b35ae4-a638-470a-bd92-0243cfbce3eb'
+id: node.award.field_govt
+field_name: field_govt
+entity_type: node
+bundle: award
+label: Govt
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: c2b35ae4-a638-470a-bd92-0243cfbce3eb
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      govt: govt
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

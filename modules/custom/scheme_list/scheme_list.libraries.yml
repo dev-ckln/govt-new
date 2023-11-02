@@ -1,0 +1,4 @@
+cuddly-slider:
+  version: 1.x
+  js:
+    js/cuddly-slider.js: {}

@@ -1,0 +1,27 @@
+uuid: 742fb860-727a-489c-972d-5359e4a0f376
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_files
+    - node.type.scheme
+  module:
+    - file
+id: node.scheme.field_files
+field_name: field_files
+entity_type: node
+bundle: scheme
+label: Files
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt jpg png zip xls xlsx rar 7z pdf gif bin xpi'
+  max_filesize: '8 MB'
+  description_field: true
+field_type: file

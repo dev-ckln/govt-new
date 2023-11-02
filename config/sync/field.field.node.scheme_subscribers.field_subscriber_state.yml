@@ -1,0 +1,29 @@
+uuid: cf6cab43-0b51-4d5e-8773-a8c12d8e7af4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subscriber_state
+    - node.type.scheme_subscribers
+    - taxonomy.vocabulary.state_govt
+id: node.scheme_subscribers.field_subscriber_state
+field_name: field_subscriber_state
+entity_type: node
+bundle: scheme_subscribers
+label: 'Subscriber State'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      state_govt: state_govt
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

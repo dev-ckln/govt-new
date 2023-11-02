@@ -1,0 +1,105 @@
+uuid: 0a2a83fd-e0bc-4add-b1bc-b40e1aae4249
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.scheme_subscribers.field_scheme_types
+    - field.field.node.scheme_subscribers.field_schemes
+    - field.field.node.scheme_subscribers.field_subscriber_email
+    - field.field.node.scheme_subscribers.field_subscriber_email_verified
+    - field.field.node.scheme_subscribers.field_subscriber_language
+    - field.field.node.scheme_subscribers.field_subscriber_otp_verified
+    - field.field.node.scheme_subscribers.field_subscriber_phone
+    - field.field.node.scheme_subscribers.field_subscriber_state
+    - field.field.node.scheme_subscribers.field_verification
+    - node.type.scheme_subscribers
+  module:
+    - user
+id: node.scheme_subscribers.default
+targetEntityType: node
+bundle: scheme_subscribers
+mode: default
+content:
+  field_scheme_types:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_schemes:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_subscriber_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_subscriber_email_verified:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_subscriber_language:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_subscriber_otp_verified:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_subscriber_phone:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_subscriber_state:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_verification:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

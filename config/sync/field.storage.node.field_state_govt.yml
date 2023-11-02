@@ -1,0 +1,20 @@
+uuid: 33dec609-2686-4c25-b593-9dc6e2f23c0c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_state_govt
+field_name: field_state_govt
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

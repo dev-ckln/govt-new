@@ -1,0 +1,41 @@
+<img src="{{ leader_image }}">
+<table>
+  <tr>
+  	<th>Sl No</th>
+    <th>Scheme Name</th>
+    <th>Language</th>
+  </tr>
+  {% if data %}
+	  {% for item in data %}
+	  {% if item.en.title is not empty %}
+		<tr>
+			<td>{{ loop.index }}</td>
+			<td><a href="{{ item.en.url }}">{{ item.en.title }}</td>
+			<td>{{ item.en.langcode }}</td>
+		</tr>
+		{% endif %}
+		{% if item.hi.title is not empty %}
+		</tr>
+			<td>{{ loop.index }}</td>
+			<td>
+				<a href="{{ item.hi.url }}">{{ item.hi.title }}
+			</td>
+			<td>{{ item.hi.langcode }}</td>
+		</tr>
+		{% endif %}
+		{% if item.te.title is not empty %}
+		</tr>
+		    <td>{{ loop.index }}</td>
+			<td>
+				<a href="{{ item.te.url }}">{{ item.te.title }}
+			</td>
+			<td>{{ item.te.langcode }}</td>
+		</tr>
+		{% endif %}
+	  {% endfor %}
+   {% else %}
+	  <tr>
+	    <td>No Scheme Found For this govt region</td>
+	  </tr>
+   {% endif %}
+</table>

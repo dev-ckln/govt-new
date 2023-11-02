@@ -1,0 +1,37 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: पुर्ववत
+          exposed_sorts_label: 'क्रमवारी नुसार लावा'
+      fields:
+        entity_field:
+          separator: ', '
+        entity_langcode:
+          separator: ', '
+        url:
+          label: URL
+          separator: ', '
+        last_check:
+          separator: ', '
+        method:
+          label: पद्धत(Method)
+          separator: ', '
+        code:
+          separator: ', '
+        error:
+          label: तृटी
+          separator: ', '
+        fail_count:
+          separator: ', '
+        status:
+          separator: ', '
+        operations:
+          label: कृती
+      filters:
+        url:
+          expose:
+            label: URL
+  page_1:
+    display_title: पान

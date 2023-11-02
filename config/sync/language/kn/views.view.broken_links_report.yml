@@ -1,0 +1,41 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ಅನ್ವಯಿಸು
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      fields:
+        entity_field:
+          separator: ', '
+        entity_langcode:
+          separator: ', '
+        url:
+          label: URL
+          separator: ', '
+        last_check:
+          separator: ', '
+        method:
+          separator: ', '
+        code:
+          separator: ', '
+        error:
+          label: ದೋಷ
+          separator: ', '
+        fail_count:
+          separator: ', '
+        status:
+          separator: ', '
+        operations:
+          label: ಕ್ರಿಯೆ
+      filters:
+        url:
+          expose:
+            label: URL
+        code_1:
+          group_info:
+            group_items:
+              1:
+                title: ವಿಫಲವಾಗಿದೆ
+  page_1:
+    display_title: ಪುಟ

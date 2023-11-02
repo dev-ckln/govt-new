@@ -1,0 +1,28 @@
+display:
+  default:
+    display_title: ಡೀಫಾಲ್ಟ್‍
+    display_options:
+      fields:
+        nothing:
+          admin_label: ಚಿಹ್ನೆ
+        type:
+          label: ಶೈಲಿ
+        timestamp:
+          label: ದಿನಾಂಕ
+        message:
+          label: ಸಂದೇಶ
+        name:
+          label: ಬಳಕೆದಾರ
+          separator: ', '
+        link:
+          label: ಕ್ರಿಯೆ
+      exposed_form:
+        options:
+          submit_button: ಶೋಧಕ(Filter)
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      filters:
+        type:
+          expose:
+            label: ಶೈಲಿ
+  page:
+    display_title: ಪುಟ

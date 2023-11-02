@@ -1,0 +1,18 @@
+uuid: a01e9594-b538-474a-8e4d-a6801838e1d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.state_govt
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.state_govt
+target_entity_type_id: taxonomy_term
+target_bundle: state_govt
+default_langcode: site_default
+language_alterable: true

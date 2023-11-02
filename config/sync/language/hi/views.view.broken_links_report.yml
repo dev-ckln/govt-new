@@ -1,0 +1,46 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: 'लागू करें'
+          reset_button_label: 'दोबारा से स्थापित करें|'
+          exposed_sorts_label: 'क्रमबद्ध द्वारा'
+          sort_desc_label: अवरोही
+      pager:
+        options:
+          tags:
+            previous: ‹‹
+            next: ››
+          expose:
+            items_per_page_label: 'विषय प्रति पृष्ठ'
+            items_per_page_options_all_label: '-सभी-'
+      fields:
+        entity_field:
+          separator: ', '
+        entity_langcode:
+          separator: ', '
+        url:
+          label: यूआरएल
+          separator: ', '
+        last_check:
+          separator: ', '
+        method:
+          separator: ', '
+        code:
+          separator: ', '
+        error:
+          label: त्रुटि
+          separator: ', '
+        fail_count:
+          separator: ', '
+        status:
+          separator: ', '
+        operations:
+          label: कार्यवाही
+      filters:
+        url:
+          expose:
+            label: यूआरएल
+  page_1:
+    display_title: पृष्ठ

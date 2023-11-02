@@ -1,0 +1,43 @@
+label: લોકો
+display:
+  default:
+    display_title: મૂળભૂત
+    display_options:
+      title: લોકો
+      fields:
+        name:
+          label: ઉપભોક્તા
+        status:
+          label: સ્થિતિ
+          settings:
+            format_custom_true: સક્રિય
+        roles_target_id:
+          label: હોદ્દાઓ
+        operations:
+          label: ક્રિયાઓ
+        mail:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: ફિલ્ટર
+      filters:
+        status:
+          group_info:
+            label: સ્થિતિ
+            group_items:
+              1:
+                title: સક્રિય
+        roles_target_id:
+          expose:
+            label: હોદો
+        permission:
+          expose:
+            label: પરવાનગી
+      use_more_text: વધુ
+  page_1:
+    display_title: પ્રુષ્ઠ
+    display_options:
+      menu:
+        title: સૂચિ
+      tab_options:
+        title: લોકો

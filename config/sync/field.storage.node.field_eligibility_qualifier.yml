@@ -1,0 +1,20 @@
+uuid: c98e553e-be48-4caa-b85a-268501b0340b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_eligibility_qualifier
+field_name: field_eligibility_qualifier
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,29 @@
+uuid: c14320eb-c433-4faa-b306-568653f180e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_govt
+    - node.type.scheme
+    - taxonomy.vocabulary.govt
+id: node.scheme.field_govt
+field_name: field_govt
+entity_type: node
+bundle: scheme
+label: Govt
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      govt: govt
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

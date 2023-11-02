@@ -1,0 +1,31 @@
+label: ಮರುನಿರ್ದೇಶನ
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ಶೋಧಕ(Filter)
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      pager:
+        options:
+          tags:
+            previous: '‹ ಹಿಂದಿನ'
+            next: 'ಮುಂದಿನ ›'
+            first: '« ಮೊದಲ'
+            last: 'ಕೊನೆಯ »'
+      fields:
+        redirect_source__path:
+          label: ಯಿಂದ
+          separator: ', '
+        created:
+          label: ನಿರ್ಮಿಸಲಾಗಿದೆ
+      filters:
+        redirect_source__path:
+          expose:
+            label: ಯಿಂದ
+        redirect_redirect__uri:
+          expose:
+            label: ಗೆ
+      title: ಮರುನಿರ್ದೇಶನ
+  page_1:
+    display_title: ಪುಟ

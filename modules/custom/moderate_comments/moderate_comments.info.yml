@@ -1,0 +1,5 @@
+name: "Comment Moderation"
+description: "Custom comment moderation"
+type: module
+package: custom
+core_version_requirement: ^8.8 || ^9

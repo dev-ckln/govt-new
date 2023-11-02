@@ -1,0 +1,20 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: പുനഃക്രമീകരണം
+      fields:
+        url:
+          label: യു.ആർ.എൽ
+        error:
+          label: പ്രശ്നം
+        operations:
+          label: പ്രവര്‍ത്തനങ്ങള്‍
+      filters:
+        url:
+          expose:
+            label: യു.ആർ.എൽ
+        code_1:
+          group_info:
+            label: തത്ഫലം

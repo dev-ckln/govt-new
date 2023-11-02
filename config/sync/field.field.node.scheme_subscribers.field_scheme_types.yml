@@ -1,0 +1,29 @@
+uuid: 2f90192b-7d5e-4801-8a89-29ccd62fe67c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_scheme_types
+    - node.type.scheme_subscribers
+    - taxonomy.vocabulary.govt
+id: node.scheme_subscribers.field_scheme_types
+field_name: field_scheme_types
+entity_type: node
+bundle: scheme_subscribers
+label: 'Scheme Types'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      govt: govt
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

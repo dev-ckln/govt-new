@@ -1,0 +1,19 @@
+uuid: df1d8c5b-f334-4556-b44d-7296ef997141
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subscriber_phone
+    - node.type.scheme_subscribers
+id: node.scheme_subscribers.field_subscriber_phone
+field_name: field_subscriber_phone
+entity_type: node
+bundle: scheme_subscribers
+label: 'Subscriber Phone'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

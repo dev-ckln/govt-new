@@ -1,0 +1,9 @@
+display:
+  default:
+    display_options:
+      fields:
+        title:
+          label: തലക്കെട്ട്
+      exposed_form:
+        options:
+          reset_button_label: പുനഃക്രമീകരണം

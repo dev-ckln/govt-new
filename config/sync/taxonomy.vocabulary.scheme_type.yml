@@ -1,0 +1,8 @@
+uuid: 19d67b6d-0b99-44ff-94c9-da8928670a39
+langcode: en
+status: true
+dependencies: {  }
+name: 'Scheme Type'
+vid: scheme_type
+description: ''
+weight: 0

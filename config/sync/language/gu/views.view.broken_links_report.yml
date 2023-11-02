@@ -1,0 +1,42 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: 'લાગુ કરો'
+      fields:
+        entity_field:
+          separator: ', '
+        entity_langcode:
+          separator: ', '
+        url:
+          label: URL
+          separator: ', '
+        last_check:
+          separator: ', '
+        method:
+          label: પદ્ધતિ
+          separator: ', '
+        code:
+          separator: ', '
+        error:
+          label: ભુલ
+          separator: ', '
+        fail_count:
+          separator: ', '
+        status:
+          separator: ', '
+        operations:
+          label: ક્રિયાઓ
+      filters:
+        url:
+          expose:
+            label: URL
+        code_1:
+          group_info:
+            label: પરિણામ
+            group_items:
+              1:
+                title: 'નિષ્ફળ થયું'
+  page_1:
+    display_title: પ્રુષ્ઠ

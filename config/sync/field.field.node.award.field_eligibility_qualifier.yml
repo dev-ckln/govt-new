@@ -1,0 +1,21 @@
+uuid: 284f1904-51e0-4267-aa75-5bbc7573b179
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eligibility_qualifier
+    - node.type.award
+  module:
+    - text
+id: node.award.field_eligibility_qualifier
+field_name: field_eligibility_qualifier
+entity_type: node
+bundle: award
+label: 'Eligibility Qualifier'
+description: "Example \"Eminent Scientist\", \"Best Sportsman\"\r\nfor showcase "
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

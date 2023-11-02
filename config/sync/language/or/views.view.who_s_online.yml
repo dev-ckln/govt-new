@@ -1,0 +1,13 @@
+display:
+  default:
+    display_title: ପୂର୍ବନିର୍ଦ୍ଧାରିତ
+    display_options:
+      title: 'କିଏ ସଂଯୁକ୍ତ ଅଛନ୍ତି'
+      filters:
+        access:
+          expose:
+            label: 'ଶେଷ ପ୍ରବେଶ'
+  who_s_online_block:
+    display_title: 'କିଏ ସଂଯୁକ୍ତ ଅଛନ୍ତି'
+    display_options:
+      block_description: 'କିଏ ସଂଯୁକ୍ତ ଅଛନ୍ତି'

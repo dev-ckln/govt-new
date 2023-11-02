@@ -1,0 +1,13 @@
+display:
+  default:
+    display_title: ਮੂਲ
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: ਰੀ-ਸੈੱਟ
+      arguments:
+        tid:
+          exception:
+            title: ਸਭ
+  page_1:
+    display_title: ਸਫਾ

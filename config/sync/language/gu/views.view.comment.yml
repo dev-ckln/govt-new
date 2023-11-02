@@ -1,0 +1,48 @@
+label: ટિપ્પણીઓ
+display:
+  default:
+    display_title: મૂળભૂત
+    display_options:
+      title: ટિપ્પણીઓ
+      fields:
+        comment_bulk_form:
+          action_title: ક્રિયા
+        subject:
+          label: વિષય
+          separator: ', '
+        uid:
+          separator: ', '
+        name:
+          label: લેખક
+          separator: ', '
+        entity_id:
+          separator: ', '
+        changed:
+          label: 'અધતન થયું'
+          separator: ', '
+        operations:
+          label: ક્રિયાઓ
+        name_1:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: ફિલ્ટર
+      empty:
+        area_text_custom:
+          content: 'કોઈ ટિપ્પણીઓ ઉપલબ્ધ નથી.'
+      filters:
+        subject:
+          expose:
+            label: વિષય
+        combine:
+          expose:
+            label: 'લેખકનું નામ'
+        langcode:
+          expose:
+            label: ભાષા
+      use_more_text: વધુ
+  page_published:
+    display_title: 'પ્રકાશિત ટિપ્પણીઓ'
+    display_options:
+      menu:
+        title: ટિપ્પણીઓ

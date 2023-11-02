@@ -1,0 +1,20 @@
+uuid: 8ff9ac62-ae58-4e15-bc11-9b27b8f6581b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.homeslideshow
+  module:
+    - path
+id: node.homeslideshow.path
+field_name: path
+entity_type: node
+bundle: homeslideshow
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

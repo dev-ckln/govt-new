@@ -1,0 +1,42 @@
+uuid: 53ad2bd5-97de-4456-b62d-83e379ac497c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - toc_js
+    - toc_js_per_node
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  toc_js:
+    toc_js_active: 0
+    title: 'Table of contents'
+    selectors: 'h2, h3'
+    selectors_minimum: '0'
+    container: .node
+    prefix: toc
+    list_type: ul
+    classes: ''
+    back_to_top: 0
+    back_to_top_label: 'Back to top'
+    smooth_scrolling: 1
+    scroll_to_offset: '0'
+    highlight_on_scroll: 1
+    highlight_offset: '100'
+    sticky: 0
+    sticky_offset: '0'
+    sticky_stop: ''
+    sticky_stop_padding: '0'
+  toc_js_per_node:
+    override: 0
+    override_default: 1
+name: 'Mini Scheme'
+type: mini_scheme
+description: "Example PPF, sukanya, Railway Lower berth quota, senior citizen quota, .5% more interest for senior citizens. Income tax rebate for senior citizens,\r\nproperty registration ladies discount, free bus travel\r\nClassified based on:\r\n1) If no need to apply( like .5% more bank interest for Sr. citizen)\r\n2) Less reach or less people searching."
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,25 @@
+display:
+  default:
+    display_title: ਮੂਲ
+    display_options:
+      fields:
+        filename:
+          label: ਨਾਂ
+        filesize:
+          label: ਸਾਈਜ਼
+        status:
+          label: ਹਾਲਤ
+      exposed_form:
+        options:
+          submit_button: ਫਿਲਟਰ
+          reset_button_label: ਰੀ-ਸੈੱਟ
+      filters:
+        status:
+          expose:
+            label: ਹਾਲਤ
+  page_2:
+    display_options:
+      arguments:
+        fid:
+          exception:
+            title: ਸਭ

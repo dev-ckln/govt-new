@@ -1,0 +1,23 @@
+uuid: 6fcdca0f-3f18-4e7f-9605-a5eea2e8245b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subscriber_language
+    - node.type.scheme_subscribers
+id: node.scheme_subscribers.field_subscriber_language
+field_name: field_subscriber_language
+entity_type: node
+bundle: scheme_subscribers
+label: 'Subscriber Language'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:configurable_language'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

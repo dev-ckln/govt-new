@@ -1,0 +1,30 @@
+uuid: 048948d8-e2ba-42eb-8ff6-b52a1364981e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_scheme_status
+field_name: field_scheme_status
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: Open
+    -
+      value: '1'
+      label: 'Permanently Closed'
+    -
+      value: '2'
+      label: 'Temporarily Suspended'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

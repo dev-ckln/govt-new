@@ -1,0 +1,8 @@
+uuid: 24db0b3e-4d9c-42ca-95e4-eec621697b60
+langcode: en
+status: true
+dependencies: {  }
+name: 'Central Ministry'
+vid: central_ministry
+description: ''
+weight: 0

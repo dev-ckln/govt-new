@@ -1,0 +1,14 @@
+display:
+  default:
+    display_options:
+      fields:
+        url:
+          label: ইউআরএল
+        error:
+          label: ত্রুটি
+        operations:
+          label: কার্যাবলী
+      filters:
+        url:
+          expose:
+            label: ইউআরএল

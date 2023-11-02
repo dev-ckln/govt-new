@@ -1,0 +1,22 @@
+uuid: 05c772a5-50d6-4c5e-9927-a14f1a21bc93
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.toc_js_active
+field_name: toc_js_active
+entity_type: node
+bundle: page
+label: 'Toc active'
+description: 'Stores whether the Toc is displayed or not.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

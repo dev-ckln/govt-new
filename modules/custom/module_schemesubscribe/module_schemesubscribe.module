@@ -1,0 +1,59 @@
+<?php
+function  module_schemesubscribe_theme($existing,$type,$theme,$path){
+	return [
+      'multistep_form' => [
+        'variables' => ['data' => NULL],
+      ],'schemesupdate_form' => [
+        'variables' => ['data' => NULL],
+      ]];
+}
+
+
+function  module_schemesubscribe_page_attachments(&$variables){
+	$variables['#attached']['library'][] = 'module_schemesubscribe/schemesubscribe';
+}
+
+
+function module_schemesubscribe_mail($key, &$message, $params) {
+  switch($key) {
+    case 'confirmation_mail':
+      $message['headers'] = [
+        'content-type' => 'text/html'
+      ];
+	  $params['template'] = 'confirmation-mail.html.twig';
+	  $params['activation_link'] = '';
+      $message['subject'] = t('Govt Schemes India - Schemes Subscribed!');
+      $message['body'][] = (string) getXMailMessageBody($params);
+	  break;
+	  
+	  case 'email_verification_mail':
+      $message['headers'] = [
+        'content-type' => 'text/html'
+      ];
+	  $params['template'] = 'email-verification-mail.html.twig';
+      $message['subject'] = t('Govt Schemes India - Email Verification!');
+      $message['body'][] = (string) getXMailMessageBody($params);
+	  break;
+	  
+	  case 'subscriber_login_mail':
+      $message['headers'] = [
+        'content-type' => 'text/html'
+      ];
+	  $params['template'] = 'subscriber-login-mail.html.twig';
+      $message['subject'] = t('Govt Schemes India - Modify Schemes!');
+      $message['body'][] = (string) getXMailMessageBody($params);
+	  break;
+  }
+}
+
+
+function getXMailMessageBody($params) {
+  return twig_render_template(
+    drupal_get_path('module', 'module_schemesubscribe') . '/templates/mail/' . $params['template'],
+    [
+      'theme_hook_original' => 'not-applicable',
+      'name' => $params['name'],
+	  'activation_link' => $params['activation_link'],
+    ]
+  );
+}

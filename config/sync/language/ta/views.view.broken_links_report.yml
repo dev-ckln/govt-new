@@ -1,0 +1,54 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: விண்ணப்பி
+          reset_button_label: மீளமை
+          exposed_sorts_label: வரிசையாக
+      pager:
+        options:
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« முதல்'
+            last: 'கடந்த »'
+          expose:
+            items_per_page_options_all_label: '- அனைத்தும் -'
+      fields:
+        entity_field:
+          separator: ', '
+        entity_langcode:
+          separator: ', '
+        url:
+          label: URL
+          separator: ', '
+        last_check:
+          label: 'கடைசியாக சோதித்தது'
+          separator: ', '
+        method:
+          label: முறை
+          separator: ', '
+        code:
+          separator: ', '
+        error:
+          label: பிழை
+          separator: ', '
+        fail_count:
+          separator: ', '
+        status:
+          separator: ', '
+        operations:
+          label: செயல்பாடுகள்
+      filters:
+        url:
+          expose:
+            label: URL
+        code_1:
+          group_info:
+            label: முடிவு
+            group_items:
+              1:
+                title: தோல்வி
+  page_1:
+    display_title: பக்கம்

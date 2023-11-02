@@ -1,0 +1,25 @@
+display:
+  default:
+    display_title: મૂળભૂત
+    display_options:
+      fields:
+        type:
+          label: પ્રકાર
+        timestamp:
+          label: તારીખ
+        message:
+          label: સંદેશ
+        name:
+          label: વપરાશકર્તા
+          separator: ', '
+        link:
+          label: ક્રિયાઓ
+      exposed_form:
+        options:
+          submit_button: ફિલ્ટર
+      filters:
+        type:
+          expose:
+            label: પ્રકાર
+  page:
+    display_title: પ્રુષ્ઠ

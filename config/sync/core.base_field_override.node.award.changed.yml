@@ -1,0 +1,18 @@
+uuid: e8590002-bcb4-4337-bb7e-02d7f23f088d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.award
+id: node.award.changed
+field_name: changed
+entity_type: node
+bundle: award
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

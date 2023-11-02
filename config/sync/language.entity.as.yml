@@ -1,0 +1,9 @@
+uuid: 0411cd7f-3ed0-437b-a69f-dbd15dc174c9
+langcode: en
+status: true
+dependencies: {  }
+id: as
+label: Assamese
+direction: ltr
+weight: 11
+locked: false

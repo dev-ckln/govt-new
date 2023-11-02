@@ -1,0 +1,16 @@
+display:
+  default:
+    display_title: అప్రమేయం
+    display_options:
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+      exposed_form:
+        options:
+          submit_button: ఆపాదించు
+  page_1:
+    display_title: పేజీ

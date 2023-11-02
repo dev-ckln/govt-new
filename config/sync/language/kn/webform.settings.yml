@@ -1,0 +1,8 @@
+settings:
+  default_submit_button_label: ಸಲ್ಲಿಸಿ
+  default_reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+  default_delete_button_label: 'ಅಳಿಸಿ ಹಾಕು'
+  default_preview_next_button_label: ಅವಲೋಕನ
+  default_preview_label: ಅವಲೋಕನ
+element:
+  default_more_title: ಹೆಚ್ಚಿನ

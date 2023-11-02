@@ -1,0 +1,14 @@
+label: 'ਕੌਣ ਨਵਾਂ ਹੈ'
+display:
+  default:
+    display_title: ਮੂਲ
+    display_options:
+      title: 'ਕੌਣ ਨਵਾਂ ਹੈ'
+      exposed_form:
+        options:
+          reset_button_label: ਰੀ-ਸੈੱਟ
+  block_1:
+    display_title: 'ਕੌਣ ਨਵਾਂ ਹੈ'
+    display_options:
+      block_description: 'ਕੌਣ ਨਵਾਂ ਹੈ'
+      block_category: ਯੂਜ਼ਰ

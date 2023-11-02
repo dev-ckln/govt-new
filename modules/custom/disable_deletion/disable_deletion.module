@@ -1,0 +1,19 @@
+<?php
+
+
+function disable_deletion_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+
+	if ($form_id == 'node_scheme_delete_form'  || $form_id == 'content_translation_delete_confirm') {
+		$form['#validate'][] = '_disable_deletion_article_validate';
+
+	}
+}
+
+
+function _disable_deletion_article_validate(&$form, &$form_state){
+	$current_user = \Drupal::currentUser();
+
+	$uid = $current_user->id();
+	if($uid!=1)
+		$form_state->setErrorByName('Error',t('Admin Only Allowed'));
+}

@@ -1,0 +1,29 @@
+uuid: b573b4ce-ef79-4bea-9327-a5b3ab6e7ba0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_state_govt
+    - node.type.scheme
+    - taxonomy.vocabulary.state_govt
+id: node.scheme.field_state_govt
+field_name: field_state_govt
+entity_type: node
+bundle: scheme
+label: 'State Govt'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      state_govt: state_govt
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

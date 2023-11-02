@@ -1,0 +1,21 @@
+uuid: 062a532e-5908-4d2c-8767-084c30077f5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_last_date
+    - node.type.mini_scheme
+  module:
+    - datetime
+id: node.mini_scheme.field_last_date
+field_name: field_last_date
+entity_type: node
+bundle: mini_scheme
+label: 'Last Date'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

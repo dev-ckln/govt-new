@@ -1,0 +1,22 @@
+uuid: 12e22217-44f3-48ad-a388-db495f5b8570
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.homeslideshow
+id: node.homeslideshow.promote
+field_name: promote
+entity_type: node
+bundle: homeslideshow
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,25 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ਫਿਲਟਰ
+          reset_button_label: ਰੀ-ਸੈੱਟ
+      pager:
+        options:
+          tags:
+            previous: '‹ ਪਿੱਛੇ'
+            next: 'ਅੱਗੇ ›'
+            last: 'ਆਖਰੀ »'
+      fields:
+        redirect_source__path:
+          label: ਵਲੋਂ
+      filters:
+        redirect_source__path:
+          expose:
+            label: ਵਲੋਂ
+        redirect_redirect__uri:
+          expose:
+            label: ਵੱਲ
+  page_1:
+    display_title: ਸਫਾ

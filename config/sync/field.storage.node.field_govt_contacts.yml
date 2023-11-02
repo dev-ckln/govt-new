@@ -1,0 +1,19 @@
+uuid: b342d6da-ba96-4fb6-89a6-eb4a5257ee25
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_govt_contacts
+field_name: field_govt_contacts
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: d1c02fcf-a78d-408b-bee3-b50dde5cc3a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.caste
+  module:
+    - text
+id: taxonomy_term.caste.default
+targetEntityType: taxonomy_term
+bundle: caste
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,15 @@
+label: ಹೊಸಬರು
+display:
+  default:
+    display_title: ಡೀಫಾಲ್ಟ್‍
+    display_options:
+      title: ಹೊಸಬರು
+      exposed_form:
+        options:
+          submit_button: ಅನ್ವಯಿಸು
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+  block_1:
+    display_title: ಹೊಸಬರು
+    display_options:
+      block_description: ಹೊಸಬರು
+      block_category: ಬಳಕೆದಾರ

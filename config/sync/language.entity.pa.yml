@@ -1,0 +1,9 @@
+uuid: 63626cba-32a2-409d-8911-3401c697420e
+langcode: en
+status: true
+dependencies: {  }
+id: pa
+label: Punjabi
+direction: ltr
+weight: 6
+locked: false

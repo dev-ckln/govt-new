@@ -1,0 +1,17 @@
+display:
+  default:
+    display_title: ಡೀಫಾಲ್ಟ್‍
+    display_options:
+      title: 'ಆನ್ಲೈನ್ ಇರುವವರು'
+      exposed_form:
+        options:
+          submit_button: ಅನ್ವಯಿಸು
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      filters:
+        access:
+          expose:
+            description: 'ಒಂದು ಪುಟವನ್ನು ನೋಡಿದ ಬಳಿಕ ಒಬ್ಬರನ್ನು ಇಷ್ಟು ಹೊತ್ತಿನ ತನಕವೂ ಅವರು ಆನ್ಲೈನ್ ಇದ್ದಾರೆಂದು ತಿಳಿಯಲಾಗುವುದು.'
+  who_s_online_block:
+    display_title: 'ಆನ್ಲೈನ್ ಇರುವವರು'
+    display_options:
+      block_description: 'ಆನ್ಲೈನ್ ಇರುವವರು'

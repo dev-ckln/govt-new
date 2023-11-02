@@ -1,0 +1,75 @@
+label: கோப்புகள்
+description: 'கோப்புகளை தேடி நிர்வகிக்கவும்'
+display:
+  default:
+    display_title: இயல்பான
+    display_options:
+      title: கோப்புகள்
+      fields:
+        filename:
+          label: பெயர்
+          separator: ', '
+        filemime:
+          label: 'மைம் வகை'
+        filesize:
+          label: அளவு
+        status:
+          label: நிலை
+          settings:
+            format_custom_false: தற்காலிக
+            format_custom_true: நிரந்தர
+        created:
+          label: 'பதிவேற்றிய தேதி'
+        changed:
+          label: 'தேதி மாற்றம்'
+        count:
+          label: பயன்படுத்தல்
+      pager:
+        options:
+          tags:
+            next: 'அடுத்த ›'
+            previous: '‹ முந்திய'
+          expose:
+            items_per_page_options_all_label: '- அனைத்தும் -'
+      exposed_form:
+        options:
+          submit_button: வடிகட்டி
+          reset_button_label: மீளமை
+          exposed_sorts_label: வரிசையாக
+      empty:
+        area_text_custom:
+          content: 'எந்த கோப்புமில்லை'
+      filters:
+        filename:
+          expose:
+            label: 'கோப்பு பெயர்'
+        filemime:
+          expose:
+            label: 'மைம் வகை'
+        status:
+          expose:
+            label: நிலை
+  page_1:
+    display_title: 'கோப்புகள் கண்ணோட்டம்'
+    display_options:
+      menu:
+        title: கோப்புகள்
+  page_2:
+    display_options:
+      fields:
+        entity_label:
+          label: உருப்படி
+        count:
+          label: 'பயன்பாட்டு எண்ணிக்கை'
+      pager:
+        options:
+          tags:
+            next: 'அடுத்த ›'
+            previous: '‹ முந்திய'
+          expose:
+            items_per_page_options_all_label: '- அனைத்தும் -'
+      arguments:
+        fid:
+          exception:
+            title: எல்லா
+          title: '{{ arguments.fid }}க்கான கோப்பு பயன்பாடு விவரம்'

@@ -1,0 +1,80 @@
+uuid: 219e8cdf-4051-4336-9fd5-62914d4daf34
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - node.type.article
+    - node.type.award
+    - node.type.mini_scheme
+    - node.type.page
+    - node.type.scheme
+    - node.type.scheme_subscribers
+    - taxonomy.vocabulary.caste
+    - taxonomy.vocabulary.central_ministry
+    - taxonomy.vocabulary.economic_background
+    - taxonomy.vocabulary.person_type
+    - taxonomy.vocabulary.scheme_type
+    - taxonomy.vocabulary.state_govt
+    - taxonomy.vocabulary.tags
+  module:
+    - captcha
+    - comment
+    - content_translation
+    - contextual
+    - file
+    - filter
+    - linkchecker
+    - node
+    - system
+    - taxonomy
+    - toolbar
+    - tour
+_core:
+  default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
+id: content_editor
+label: 'Content editor'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access broken links report'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access own broken links report'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer filters'
+  - 'create article content'
+  - 'create award content'
+  - 'create content translations'
+  - 'create mini_scheme content'
+  - 'create page content'
+  - 'create scheme content'
+  - 'edit any award content'
+  - 'edit any mini_scheme content'
+  - 'edit any scheme content'
+  - 'edit own article content'
+  - 'edit own award content'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'edit own scheme content'
+  - 'edit terms in tags'
+  - 'skip CAPTCHA'
+  - 'translate any entity'
+  - 'translate caste taxonomy_term'
+  - 'translate central_ministry taxonomy_term'
+  - 'translate economic_background taxonomy_term'
+  - 'translate editable entities'
+  - 'translate person_type taxonomy_term'
+  - 'translate scheme node'
+  - 'translate scheme_type taxonomy_term'
+  - 'translate state_govt taxonomy_term'
+  - 'update content translations'
+  - 'use text format full_html'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view scheme revisions'
+  - 'view scheme_subscribers revisions'
+  - 'view the administration theme'

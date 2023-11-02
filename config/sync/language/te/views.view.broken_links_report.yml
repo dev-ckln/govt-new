@@ -1,0 +1,34 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ఆపాదించు
+      pager:
+        options:
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« మొదటి'
+            last: 'చివర »'
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+      fields:
+        url:
+          label: యూఆరెల్
+        error:
+          label: సమస్య
+        operations:
+          label: కార్యాలు
+      filters:
+        url:
+          expose:
+            label: యూఆరెల్
+        code_1:
+          group_info:
+            label: ఫలితం
+            group_items:
+              1:
+                title: విఫలమైంది
+  page_1:
+    display_title: పేజీ

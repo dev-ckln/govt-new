@@ -1,0 +1,26 @@
+uuid: c2b92a6d-8796-4487-b988-d77c2008ee6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_highlights
+    - node.type.scheme
+  module:
+    - linkchecker
+    - text
+third_party_settings:
+  linkchecker:
+    scan: true
+    extractor: html_link_extractor
+id: node.scheme.field_highlights
+field_name: field_highlights
+entity_type: node
+bundle: scheme
+label: Highlights
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

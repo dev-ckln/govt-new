@@ -1,0 +1,21 @@
+uuid: 1d37ff3c-2cb3-4720-811e-8f911d40efe5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_govt_contacts
+    - node.type.scheme
+  module:
+    - text
+id: node.scheme.field_govt_contacts
+field_name: field_govt_contacts
+entity_type: node
+bundle: scheme
+label: 'Govt Contacts'
+description: 'स्कीम के बाबुओ का नंबर लिखो ! ये सिर्फ हमें ही दिखेगा बहार वालों को नहीं '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

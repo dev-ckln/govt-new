@@ -1,0 +1,22 @@
+uuid: b30a02e9-f463-4c86-a358-e1cfe0a38a66
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.homeslideshow
+id: node.homeslideshow.sticky
+field_name: sticky
+entity_type: node
+bundle: homeslideshow
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

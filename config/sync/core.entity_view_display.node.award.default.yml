@@ -1,0 +1,81 @@
+uuid: 9b8d1c49-b0ea-4616-b006-c9980ef3b2c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.award.body
+    - field.field.node.award.field_eligibility_qualifier
+    - field.field.node.award.field_govt
+    - field.field.node.award.field_last_date
+    - field.field.node.award.field_profession
+    - field.field.node.award.field_website
+    - node.type.award
+  module:
+    - datetime
+    - link
+    - text
+    - user
+id: node.award.default
+targetEntityType: node
+bundle: award
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_eligibility_qualifier:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_govt:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_last_date:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_profession:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_website:
+    type: link
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

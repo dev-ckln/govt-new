@@ -1,0 +1,10 @@
+label: 'ಇತ್ತೀಚಿನ ಪ್ರತಿಕ್ರಿಯೆಗಳು'
+display:
+  default:
+    display_title: ಡೀಫಾಲ್ಟ್‍
+    display_options:
+      title: 'ಇತ್ತೀಚಿನ ಪ್ರತಿಕ್ರಿಯೆಗಳು'
+  block_1:
+    display_title: ಖಂಡ
+    display_options:
+      block_description: 'ಇತ್ತೀಚಿನ ಪ್ರತಿಕ್ರಿಯೆಗಳು'

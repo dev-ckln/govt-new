@@ -1,0 +1,7 @@
+name: Matching Schemes By Sector
+type: module
+description: Shows matching schemes
+core_version_requirement: ^8 || ^9
+package: custom
+dependencies:
+        - drupal:block

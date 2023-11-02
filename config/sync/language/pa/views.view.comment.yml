@@ -1,0 +1,32 @@
+label: ਟਿੱਪਣੀਆਂ
+display:
+  default:
+    display_title: ਮੂਲ
+    display_options:
+      title: ਟਿੱਪਣੀਆਂ
+      fields:
+        subject:
+          label: ਵਿਸ਼ਾ
+        name:
+          label: ਲੇਖਕ
+      pager:
+        options:
+          tags:
+            next: 'ਅੱਗੇ ›'
+            previous: '‹ ਪਿੱਛੇ'
+            last: 'ਆਖਰੀ »'
+      exposed_form:
+        options:
+          submit_button: ਫਿਲਟਰ
+          reset_button_label: ਰੀ-ਸੈੱਟ
+      filters:
+        subject:
+          expose:
+            label: ਵਿਸ਼ਾ
+        langcode:
+          expose:
+            label: ਭਾਸ਼ਾ
+  page_published:
+    display_options:
+      menu:
+        title: ਟਿੱਪਣੀਆਂ

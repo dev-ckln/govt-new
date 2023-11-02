@@ -1,0 +1,19 @@
+uuid: b5cd0fe1-831f-4cb2-8ea7-544a80f4d9e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_verification
+    - node.type.scheme_subscribers
+id: node.scheme_subscribers.field_verification
+field_name: field_verification
+entity_type: node
+bundle: scheme_subscribers
+label: 'Verification Code'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

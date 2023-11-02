@@ -1,0 +1,25 @@
+uuid: 9e077875-ad22-4080-ba9e-81670fc7788c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b6f87203-93ca-4fd6-92d4-71cea50c6ace'
+  module:
+    - block_content
+  theme:
+    - b5subtheme
+id: subscribegovtschemes
+theme: b5subtheme
+region: nav_branding
+weight: -6
+provider: null
+plugin: 'block_content:b6f87203-93ca-4fd6-92d4-71cea50c6ace'
+settings:
+  id: 'block_content:b6f87203-93ca-4fd6-92d4-71cea50c6ace'
+  label: 'Subscribe govt schemes'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

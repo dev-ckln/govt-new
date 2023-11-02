@@ -1,0 +1,17 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: ਰੀ-ਸੈੱਟ
+      fields:
+        url:
+          label: URL
+        error:
+          label: ਗਲਤੀ
+      filters:
+        url:
+          expose:
+            label: URL
+  page_1:
+    display_title: ਸਫਾ

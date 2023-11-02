@@ -1,0 +1,8 @@
+uuid: 4cfd8e8f-319f-473a-bdf2-8c1a728e3472
+langcode: en
+status: true
+dependencies: {  }
+name: Statedelete
+vid: state
+description: ''
+weight: 0

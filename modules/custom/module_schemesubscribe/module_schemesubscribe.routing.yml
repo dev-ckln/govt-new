@@ -1,0 +1,121 @@
+module_schemesubscribe.multistepform:
+  path: '/multistep/form'
+  defaults:
+    _controller: '\Drupal\module_schemesubscribe\Controller\MultistepformController::getform'
+    _title: 'Multistep Subscription Form'
+  requirements:
+    _permission: 'access content'
+
+
+module_schemesubscribe.states_subscription:
+  path: '/subscription/states'
+  defaults:
+    _title: 'Scheme Subscription Form'
+    _form: 'Drupal\module_schemesubscribe\Form\StatesForm'
+  requirements:
+    _permission: 'access content'
+
+module_schemesubscribe.schemes_subscription:
+  path: '/subscription/schemes'
+  defaults:
+    _title: 'Scheme Subscription Form'
+    _form: 'Drupal\module_schemesubscribe\Form\SchemesForm'
+  requirements:
+    _permission: 'access content'
+
+module_schemesubscribe.central_schemes_listing_subscription:
+  path: '/subscription/centralschemes'
+  defaults:
+    _title: 'Scheme Subscription Form'
+    _form: 'Drupal\module_schemesubscribe\Form\CentralSchemeForm'
+  requirements:
+    _permission: 'access content'
+
+
+module_schemesubscribe.state_schemes_listing_subscription:
+  path: '/subscription/stateschemes'
+  defaults:
+    _title: 'Scheme Subscription Form'
+    _form: 'Drupal\module_schemesubscribe\Form\StateSchemeForm'
+  requirements:
+    _permission: 'access content'
+
+
+module_schemesubscribe.state_schemes_ajax_listing:
+  path: '/subscription/schemelisting/{state_id}'
+  defaults:
+    _controller: '\Drupal\module_schemesubscribe\Controller\MultistepformController::schemelisting'
+    _title: 'Scheme Subscription Form'
+  requirements:
+    _permission: 'access content'
+
+module_schemesubscribe.schemes_selected:
+  path: '/subscription/schemeselected'
+  defaults:
+    _title: 'Confirm your selection'
+    _form: 'Drupal\module_schemesubscribe\Form\SchemeSelectedForm'
+  requirements:
+    _permission: 'access content'
+
+module_schemesubscribe.userfrm:
+  path: '/subscription/user'
+  defaults:
+    _title: 'Confirm Your Email and Mobile'
+    _form: 'Drupal\module_schemesubscribe\Form\UserForm'
+  requirements:
+    _permission: 'access content'
+
+module_schemesubscribe.emailactivation:
+  path: '/subscription/activation/{id}'
+  defaults:
+     _controller: '\Drupal\module_schemesubscribe\Controller\MultistepformController::emailactivation'
+  requirements:
+    _permission: 'access content'
+
+module_schemesubscribe.verifyotp:
+  path: '/subscription/otpverification/{id}'
+  defaults:
+    _title: 'OTP Verification'
+    _form: 'Drupal\module_schemesubscribe\Form\OtpForm'
+  requirements:
+    _permission: 'access content'
+
+module_schemesubscribe.success:
+  path: '/subscription/success'
+  defaults:
+    _controller: '\Drupal\module_schemesubscribe\Controller\MultistepformController::successpage'
+    _title: 'Thank You!!'
+  requirements:
+    _permission: 'access content'
+
+module_schemesubscribe.subscriberlogin:
+  path: '/subscription/login'
+  defaults:
+    _title: 'Subscriber Login Form'
+    _form: 'Drupal\module_schemesubscribe\Form\LoginForm'
+  requirements:
+    _permission: 'access content'
+
+module_schemesubscribe.subscribermodify:
+  path: '/subscription/modifyschemes'
+  defaults:
+    _title: 'Manage Schemes'
+    _form: 'Drupal\module_schemesubscribe\Form\ModifyForm'
+  requirements:
+    _permission: 'access content'
+
+module_schemesubscribe.subscriberdashboard:
+  path: '/subscription/dashboard/{id}'
+  defaults:
+    _title: 'Manage Schemes'
+    _form: 'Drupal\module_schemesubscribe\Form\DashForm'
+  requirements:
+    _permission: 'access content'
+
+module_schemesubscribe.editschemesform:
+  path: '/subscription/updateschemes'
+  defaults:
+    _controller: '\Drupal\module_schemesubscribe\Controller\MultistepformController::manageschemesinfo'
+    _title: 'Thank You!!'
+  requirements:
+    _permission: 'access content'

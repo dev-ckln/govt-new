@@ -1,0 +1,35 @@
+label: അഭിപ്രായങ്ങൾ
+display:
+  default:
+    display_options:
+      title: അഭിപ്രായങ്ങൾ
+      fields:
+        comment_bulk_form:
+          action_title: പ്രവര്‍ത്തി
+        subject:
+          label: വിഷയം
+        operations:
+          label: പ്രവര്‍ത്തനങ്ങള്‍
+      pager:
+        options:
+          tags:
+            next: 'അടുത്തത് ›'
+            previous: '‹ മുമ്പത്തേത്'
+            first: '« ആദ്യം'
+            last: 'അവസാനത്തേത് »'
+      exposed_form:
+        options:
+          submit_button: ഫിൽറ്റർ
+          reset_button_label: പുനഃക്രമീകരണം
+      filters:
+        subject:
+          expose:
+            label: വിഷയം
+        langcode:
+          expose:
+            label: ഭാഷ
+      use_more_text: കൂടുതൽ
+  page_published:
+    display_options:
+      menu:
+        title: അഭിപ്രായങ്ങൾ

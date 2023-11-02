@@ -1,0 +1,14 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ഫിൽറ്റർ
+          reset_button_label: പുനഃക്രമീകരണം
+      pager:
+        options:
+          tags:
+            previous: '‹ മുമ്പത്തേത്'
+            next: 'അടുത്തത് ›'
+            first: '« ആദ്യം'
+            last: 'അവസാനത്തേത് »'

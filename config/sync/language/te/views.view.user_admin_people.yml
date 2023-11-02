@@ -1,0 +1,46 @@
+label: ప్రజలు
+display:
+  default:
+    display_title: అప్రమేయం
+    display_options:
+      title: ప్రజలు
+      fields:
+        name:
+          label: 'వాడుకరి పేరు'
+        status:
+          label: స్థితి
+        roles_target_id:
+          label: పాత్రలు
+        created:
+          label: సభ్యుడుగా
+        access:
+          label: 'చివరి దర్శనం'
+        operations:
+          label: కార్యాలు
+      pager:
+        options:
+          tags:
+            next: 'తదుపరి ›'
+            previous: '‹ మునుపటి'
+            first: '« మొదటి'
+            last: 'చివర »'
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+      exposed_form:
+        options:
+          submit_button: వడపోయి
+      filters:
+        status:
+          group_info:
+            label: స్థితి
+        permission:
+          expose:
+            label: అనుమతి
+      use_more_text: మరిన్ని
+  page_1:
+    display_title: పేజీ
+    display_options:
+      menu:
+        title: జాబితా
+      tab_options:
+        title: ప్రజలు

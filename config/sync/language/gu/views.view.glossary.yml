@@ -1,0 +1,16 @@
+display:
+  default:
+    display_title: મૂળભૂત
+    display_options:
+      fields:
+        title:
+          label: શિર્ષક
+        name:
+          label: લેખક
+        changed:
+          label: 'છેલ્લો સુધારો'
+      exposed_form:
+        options:
+          submit_button: 'લાગુ કરો'
+  page_1:
+    display_title: પ્રુષ્ઠ

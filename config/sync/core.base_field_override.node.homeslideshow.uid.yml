@@ -1,0 +1,20 @@
+uuid: 9da98474-ad82-423e-9da8-bd4f258e4018
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.homeslideshow
+id: node.homeslideshow.uid
+field_name: uid
+entity_type: node
+bundle: homeslideshow
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

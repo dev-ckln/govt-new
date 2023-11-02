@@ -1,0 +1,14 @@
+display:
+  default:
+    display_title: ಡೀಫಾಲ್ಟ್‍
+    display_options:
+      fields:
+        changed:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: ಅನ್ವಯಿಸು
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      use_more_text: ಹೆಚ್ಚಿನ
+  block_1:
+    display_title: ಖಂಡ

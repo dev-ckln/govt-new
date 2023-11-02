@@ -1,0 +1,24 @@
+display:
+  default:
+    display_options:
+      fields:
+        filename:
+          label: പേര്
+        filemime:
+          label: 'MIME തരം'
+        status:
+          label: സ്ഥിതി
+      exposed_form:
+        options:
+          submit_button: ഫിൽറ്റർ
+          reset_button_label: പുനഃക്രമീകരണം
+      filters:
+        filename:
+          expose:
+            label: 'ഫയലിന്റെ പേര്'
+        filemime:
+          expose:
+            label: 'MIME തരം'
+        status:
+          expose:
+            label: സ്ഥിതി

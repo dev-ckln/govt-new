@@ -1,0 +1,38 @@
+label: ਲੋਕ
+display:
+  default:
+    display_title: ਮੂਲ
+    display_options:
+      title: ਲੋਕ
+      fields:
+        name:
+          label: 'ਯੂਜ਼ਰ ਨਾਂ'
+        status:
+          label: ਹਾਲਤ
+          settings:
+            format_custom_true: ਚਾਲੂ
+        roles_target_id:
+          label: ਰੋਲ
+        access:
+          label: 'ਆਖਰੀ ਵਰਤੋਂ'
+      exposed_form:
+        options:
+          submit_button: ਫਿਲਟਰ
+          reset_button_label: ਰੀ-ਸੈੱਟ
+      filters:
+        status:
+          group_info:
+            label: ਹਾਲਤ
+            group_items:
+              1:
+                title: ਚਾਲੂ
+        roles_target_id:
+          expose:
+            label: ਰੋਲ
+  page_1:
+    display_title: ਸਫਾ
+    display_options:
+      menu:
+        title: ਸੂਚੀ
+      tab_options:
+        title: ਲੋਕ

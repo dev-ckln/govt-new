@@ -1,0 +1,12 @@
+display:
+  default:
+    display_title: ಡೀಫಾಲ್ಟ್‍
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ಅನ್ವಯಿಸು
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+  block_1:
+    display_title: ಖಂಡ
+  page_1:
+    display_title: ಪುಟ

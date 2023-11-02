@@ -1,0 +1,45 @@
+label: વિષયાર્થ
+display:
+  default:
+    display_title: મૂળભૂત
+    display_options:
+      title: વિષયાર્થ
+      fields:
+        title:
+          label: શિર્ષક
+        type:
+          separator: ', '
+        name:
+          label: લેખક
+        status:
+          label: સ્થિતિ
+          settings:
+            format_custom_true: પ્રકાશિત
+        changed:
+          label: 'અધતન થયું'
+        operations:
+          label: ક્રિયાઓ
+      exposed_form:
+        options:
+          submit_button: ફિલ્ટર
+      filters:
+        title:
+          expose:
+            label: શિર્ષક
+        status:
+          expose:
+            label: સ્થિતિ
+          group_info:
+            group_items:
+              1:
+                title: પ્રકાશિત
+        langcode:
+          expose:
+            label: ભાષા
+  page_1:
+    display_title: પ્રુષ્ઠ
+    display_options:
+      menu:
+        title: વિષયાર્થ
+      tab_options:
+        title: વિષયાર્થ

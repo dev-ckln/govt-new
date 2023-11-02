@@ -1,0 +1,29 @@
+uuid: ceb6f8b1-cd95-4016-8f32-fee2a11cf90f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ministry
+    - node.type.scheme
+    - taxonomy.vocabulary.central_ministry
+id: node.scheme.field_ministry
+field_name: field_ministry
+entity_type: node
+bundle: scheme
+label: Ministry
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      central_ministry: central_ministry
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

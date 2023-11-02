@@ -1,0 +1,32 @@
+label: சொற்களஞ்சியம்
+description: 'எழுத்துப்படி அனைத்து உள்ளடக்கங்களும்.'
+display:
+  default:
+    display_title: இயல்பான
+    display_options:
+      fields:
+        title:
+          label: தலைப்பு
+        name:
+          label: எழுத்தாளர்
+        changed:
+          label: 'கடைசி மாற்றம்'
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_options_all_label: '- அனைத்தும் -'
+      exposed_form:
+        options:
+          submit_button: விண்ணப்பி
+          reset_button_label: மீளமை
+          exposed_sorts_label: வரிசையாக
+  attachment_1:
+    display_title: இணைப்பு
+  page_1:
+    display_title: பக்கம்
+    display_options:
+      menu:
+        title: சொற்களஞ்சியம்

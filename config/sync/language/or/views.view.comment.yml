@@ -1,0 +1,21 @@
+display:
+  default:
+    display_title: ପୂର୍ବନିର୍ଦ୍ଧାରିତ
+    display_options:
+      fields:
+        subject:
+          label: ବିଷୟ
+        operations:
+          label: ପ୍ରୟୋଗଗୁଡ଼ିକ
+      exposed_form:
+        options:
+          submit_button: ଛାଣକ
+      filters:
+        subject:
+          expose:
+            label: ବିଷୟ
+        langcode:
+          expose:
+            label: ଭାଷା
+  page_published:
+    display_title: 'ପ୍ରକାଶିତ ଟିପ୍ପଣୀ ଗୁଡିକ'
